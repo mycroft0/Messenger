@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "David"
+    },
+    {
+      "id": 2,
+      "name": "Toma"
+    },
+    {
+      "id": 3,
+      "name": "Nane"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "author": "David",
+      "date": "25/02/2021",
+      "text": "Hi Toma, marry me!"
+    },
+    {
+      "id": 2,
+      "author": "Toma",
+      "date": "25/02/2021",
+      "text": "Hi David, I say yes!"
+    },
+    {
+      "id": 3,
+      "author": "Nane",
+      "date": "29/05/2022",
+      "text": "Hi Seda!"
+    },
+    {
+      "id": 4,
+      "author": "Artyom",
+      "date": "08/08/2018",
+      "text": "Psagva!"
+    }
+  ]
+}
