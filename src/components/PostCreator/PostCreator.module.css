@@ -1,0 +1,18 @@
+.newPost{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newPostArea{
+    min-height: 100px;
+    width: 400px;
+    padding: 10px 40px;
+    border: 1px solid deeppink;
+
+}
+
+.newPostInput{
+    padding: 10px;
+}

@@ -18,13 +18,13 @@
       "id": 1,
       "author": "David",
       "date": "25/02/2021",
-      "text": "Hi Toma, marry me!"
+      "text": "Hi Toma!"
     },
     {
       "id": 2,
       "author": "Toma",
       "date": "25/02/2021",
-      "text": "Hi David, I say yes!"
+      "text": "Hi David!"
     },
     {
       "id": 3,
@@ -36,7 +36,13 @@
       "id": 4,
       "author": "Artyom",
       "date": "08/08/2018",
-      "text": "Psagva!"
+      "text": "srtik dreq!"
+    },
+    {
+      "text": "Toma imanas incha exel",
+      "author": "Alex",
+      "date": "07/05/2022",
+      "id": 6
     }
   ]
 }

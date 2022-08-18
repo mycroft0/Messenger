@@ -1,20 +1,16 @@
-import {useEffect, useState} from "react";
-import {baseUrl} from "../api/api";
+
 import classes from "./messages.module.css";
-import axios from "axios";
+
+import PostCreator from "../PostCreator/PostCreator";
+import {useMessages} from "../../contexts/MessagesProvider";
 
 const Messages = () => {
-    const [messagesData, setMessagesData] = useState([])
 
-    useEffect(() => {
-        axios.get(`${baseUrl}/messages`)
-            .then(res=>{
-                setMessagesData(res.data)
-            })
-    }, [])
+    const {messagesData,deletePost} = useMessages()
 
     return (
         <main className="messages">
+            <PostCreator/>
             {
                 messagesData.map(message=>{
                     return(
@@ -22,6 +18,7 @@ const Messages = () => {
                             <p>{message.author}</p>
                             <p>{message.text}</p>
                             <p>{message.date}</p>
+                            <button onClick={()=>deletePost(message.id)}> Delete</button>
                         </div>
 
                     )
